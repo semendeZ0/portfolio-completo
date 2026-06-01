@@ -1,0 +1,146 @@
+[
+  {
+    "titulo": "FitSchudele",
+    "descricao": " Sistema de agendamento para Personal Trainers desenvolvido com Python/Flask e PostgreSQL. Conta com autenticação de usuários, painel administrativo, agendamento de sessões em tempo real, notificações automáticas por e-mail e deploy em produção na Railway. Adaptável para qualquer negócio baseado em agendamentos.",
+    "descricao_en": "Scheduling system for Personal Trainers built with Python/Flask and PostgreSQL. Includes user authentication, an admin dashboard, real-time session booking, automatic email notifications, and production deployment on Railway. Adaptable to any business based on appointments.",
+    "categoria": "Sistemas Web",
+    "categoria_en": "Web Systems",
+    "stack": [
+      "Python",
+      "PostgreSQL",
+      "Sistema de Agendamento",
+      "Web App",
+      "Flask",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "stack_en": [
+      "Python",
+      "PostgreSQL",
+      "Scheduling System",
+      "Web App",
+      "Flask",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "imagem": "images/pagina_agendamento.PNG",
+    "url_demo": "https://fitschedule.up.railway.app/",
+    "url_github": "",
+    "destaque": true,
+    "tags_en": [
+      "Python",
+      "PostgreSQL",
+      "Scheduling System",
+      "Web App",
+      "Flask",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ]
+  },
+  {
+    "titulo": "Estoque Fácil App 0.1",
+    "descricao": "Aplicativo criado para controlar estoques de pequeno à médio porte!<br>Versão BETA disponível para download.",
+    "descricao_en": "App created to manage inventory for small to mid-sized operations!<br>BETA version available for download.",
+    "categoria": "sistema",
+    "categoria_en": "system",
+    "stack": [
+      "Python",
+      "SQLite",
+      "CustomTkinter"
+    ],
+    "stack_en": [
+      "Python",
+      "SQLite",
+      "CustomTkinter"
+    ],
+    "imagem": "images/app.PNG",
+    "url_demo": "https://drive.google.com/file/d/1bX_wdFafbuOxAflW8t57r73W6d0qxG23/view?usp=drive_link",
+    "url_github": "https://github.com/semendeZ0/controle_estoque",
+    "tags_en": [
+      "Python",
+      "SQLite",
+      "CustomTkinter"
+    ]
+  },
+  {
+    "titulo": "Landingpage para academia",
+    "descricao": "Página focada em conversão, incluindo estrutura completa com seções, prova social e call-to-action integrado para whatsap. Projeto responsivo, otimizado para diferentes dispositivos e focado em experiência do usuário",
+    "descricao_en": "Conversion-focused landing page, with a complete structure including sections, social proof, and a WhatsApp-integrated call-to-action. Responsive project, optimized for different devices, and centered on user experience.",
+    "categoria": "web",
+    "categoria_en": "web",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "stack_en": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "imagem": "images/landinpage_acad.PNG",
+    "url_demo": "https://landingpage-academia-seven.vercel.app/",
+    "url_github": "",
+    "tags_en": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ]
+  },
+  {
+    "titulo": "Landingpage moderna para loja ficticia de moda premium chamada LUMINÈRE",
+    "descricao": "Desenvolvimento de landing page moderna e responsiva para uma marca fictícia de moda feminina premium, LUMIÈRE. O projeto foca em design sofisticado, boa experiência do usuário e forte apelo visual, simulando um e-commerce real. Inclui seções de apresentação da coleção, vitrine de produtos, informações institucionais e captação de leads, com interações em JavaScript e animações suaves. O projeto serve como base para futuras integrações com backend e funcionalidades completas de loja virtual.",
+    "descricao_en": "Development of a modern, responsive landing page for a fictional premium women’s fashion brand, LUMIÈRE. The project focuses on sophisticated design, strong user experience, and compelling visual appeal—simulating a real e-commerce. It includes collection presentation sections, product showcase, institutional information, and lead capture, with JavaScript interactions and smooth animations. It also serves as a foundation for future backend integrations and full virtual store features.",
+    "categoria": "web",
+    "categoria_en": "web",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "stack_en": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "imagem": "images/moda1.PNG",
+    "url_demo": "https://landingpage-moda.vercel.app/",
+    "url_github": "",
+    "tags_en": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ]
+  },
+  {
+    "titulo": "Dev Gallery",
+    "descricao": "Aplicação web full-stack para upload e exibição de imagens. Os usuários podem enviar arquivos JPG, PNG e GIF com título e descrição. As imagens são armazenadas em disco e suas informações são salvas em um banco de dados, sendo exibidas em uma galeria dinâmica e responsiva em formato de grade.",
+    "descricao_en": "Full-stack web application for uploading and displaying images. Users can upload JPG, PNG, and GIF files with a title and description. Images are stored on disk and their data is saved in a database, then displayed in a dynamic, responsive grid gallery.",
+    "categoria": "web",
+    "categoria_en": "web",
+    "stack": [
+      "Python",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3"
+    ],
+    "stack_en": [
+      "Python",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3"
+    ],
+    "imagem": "images/DevGallery.PNG",
+    "url_demo": "https://dev-gallery-ivory.vercel.app/",
+    "url_github": "",
+    "tags_en": [
+      "Python",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3"
+    ]
+  }
+]

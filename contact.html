@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Respawn — Contato</title>
+    <meta name="description" content="Entre em contato com Dev Respawn. Orçamento em até 24h, sem burocracia.">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ═══════════════ NAVBAR ═══════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="./index.html" class="nav-logo">
+                <div class="logo-icon">&lt;/&gt;</div>
+                <div class="logo-wordmark">
+                    <span class="logo-respawn">RESPAWN</span><span class="logo-dev">&lt;DEV&gt;</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="./services.html" data-i18n="nav_services">Serviços</a></li>
+                <li><a href="./portfolio.html" data-i18n="nav_portfolio">Portfólio</a></li>
+                <li><a href="./contact.html" class="nav-active" data-i18n="nav_contact">Contato</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-toggle">
+                    <button class="lang-btn active" data-lang="pt">PT</button>
+                    <span class="lang-sep">/</span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="./services.html" data-i18n="nav_services">Serviços</a>
+            <a href="./portfolio.html" data-i18n="nav_portfolio">Portfólio</a>
+            <a href="./contact.html" data-i18n="nav_contact">Contato</a>
+            <div class="mobile-lang">
+                <button class="lang-btn active" data-lang="pt">PT</button>
+                <span class="lang-sep">/</span>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="ct-hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="hero-glow-1"></div>
+            <div class="hero-glow-2"></div>
+        </div>
+        <div class="ct-hero-container">
+            <div class="ct-hero-meta">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span data-i18n="ct_badge">DISPONÍVEL AGORA</span>
+                </div>
+                <div class="pf-counter">
+                    <span class="t-prompt">~/contact $&nbsp;</span>
+                    <span class="t-text" id="ct-terminal-text"></span><span class="t-cursor">▋</span>
+                </div>
+            </div>
+            <h1 class="ct-hero-title">
+                <span data-i18n="ct_title_1">Vamos</span>
+                <span class="accent" data-i18n="ct_title_2">construir.</span>
+            </h1>
+            <p class="ct-hero-sub" data-i18n="ct_sub">
+                Descreve o que você precisa. Em até 24h você tem um plano claro — sem burocracia, sem enrolação.
+            </p>
+        </div>
+        <div class="pf-hero-line"></div>
+    </section>
+
+    <!-- ═══════════════ CONTEÚDO PRINCIPAL ═══════════════ -->
+    <section class="ct-section">
+        <div class="container">
+            <div class="ct-grid">
+
+                <!-- ── FORMULÁRIO ── -->
+                <div class="ct-form-wrap fade-up">
+                    <div class="ct-form-header">
+                        <span class="section-eyebrow" data-i18n="ct_form_eyebrow">BRIEFING</span>
+                        <h2 class="ct-form-title" data-i18n="ct_form_title">Conta o contexto.</h2>
+                        <p class="ct-form-sub" data-i18n="ct_form_sub">Preenche abaixo e clica em enviar — vou te responder via WhatsApp.</p>
+                    </div>
+
+                    <div class="ct-form" id="ct-form">
+
+                        <div class="ct-field">
+                            <label class="ct-label" for="ct-name" data-i18n="ct_label_name">Nome</label>
+                            <input class="ct-input" type="text" id="ct-name" placeholder="Seu nome" autocomplete="off">
+                        </div>
+
+                        <div class="ct-field">
+                            <label class="ct-label" for="ct-service" data-i18n="ct_label_service">Tipo de projeto</label>
+                            <div class="ct-select-wrap">
+                                <select class="ct-input ct-select" id="ct-service">
+                                    <option value="" data-i18n="ct_select_placeholder">Selecione um serviço</option>
+                                    <option value="Landing Page" data-i18n="ct_opt_1">Landing Page</option>
+                                    <option value="Website" data-i18n="ct_opt_2">Website</option>
+                                    <option value="Sistema Web" data-i18n="ct_opt_3">Sistema Web</option>
+                                    <option value="Correção de Bug" data-i18n="ct_opt_4">Correção de Bug</option>
+                                    <option value="API / Integração" data-i18n="ct_opt_5">API / Integração</option>
+                                    <option value="Automação" data-i18n="ct_opt_6">Automação</option>
+                                    <option value="Outro" data-i18n="ct_opt_7">Outro</option>
+                                </select>
+                                <span class="ct-select-arrow">▾</span>
+                            </div>
+                        </div>
+
+                        <div class="ct-field">
+                            <label class="ct-label" for="ct-desc" data-i18n="ct_label_desc">Descrição</label>
+                            <textarea class="ct-input ct-textarea" id="ct-desc" rows="5" placeholder="Descreve o projeto, o problema ou o que você precisa..."></textarea>
+                        </div>
+
+                        <div class="ct-field">
+                            <label class="ct-label" data-i18n="ct_label_budget">Orçamento estimado</label>
+                            <div class="ct-budget-grid">
+                                <button class="ct-budget-btn" data-value="Até R$500" data-i18n="ct_budget_1">Até R$500</button>
+                                <button class="ct-budget-btn" data-value="R$500–R$1.500" data-i18n="ct_budget_2">R$500–R$1.500</button>
+                                <button class="ct-budget-btn" data-value="R$1.500–R$3.000" data-i18n="ct_budget_3">R$1.500–R$3k</button>
+                                <button class="ct-budget-btn" data-value="Acima de R$3.000" data-i18n="ct_budget_4">Acima de R$3k</button>
+                            </div>
+                        </div>
+
+                        <button class="ct-submit" id="ct-submit" type="button">
+                            <span data-i18n="ct_submit">Enviar via WhatsApp</span>
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.857L.057 23.571a.75.75 0 00.932.932l5.714-1.476A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.655-.51-5.175-1.402l-.37-.214-3.837.99.99-3.837-.214-.37A9.952 9.952 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- ── CANAIS + FAQ ── -->
+                <div class="ct-sidebar fade-up" data-delay="100">
+
+                    <!-- Canais -->
+                    <div class="ct-channels">
+                        <span class="section-eyebrow" data-i18n="ct_channels_eyebrow">CANAIS</span>
+                        <h3 class="ct-sidebar-title" data-i18n="ct_channels_title">Fala direto comigo.</h3>
+
+                        <div class="ct-channel-list">
+                            <a href="https://wa.me/5553984261057" class="ct-channel" target="_blank" rel="noopener noreferrer">
+                                <div class="ct-channel-icon ct-channel-icon--wa">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.857L.057 23.571a.75.75 0 00.932.932l5.714-1.476A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.655-.51-5.175-1.402l-.37-.214-3.837.99.99-3.837-.214-.37A9.952 9.952 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+                                </div>
+                                <div class="ct-channel-body">
+                                    <span class="ct-channel-name">WhatsApp</span>
+                                    <span class="ct-channel-tag" data-i18n="ct_wa_tag">Resposta rápida</span>
+                                </div>
+                                <span class="ct-channel-arrow">→</span>
+                            </a>
+
+                            <a href="https://t.me/RespawnDev0" class="ct-channel" target="_blank" rel="noopener noreferrer">
+                                <div class="ct-channel-icon ct-channel-icon--tg">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.96 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                                </div>
+                                <div class="ct-channel-body">
+                                    <span class="ct-channel-name">Telegram</span>
+                                    <span class="ct-channel-tag" data-i18n="ct_tg_tag">Disponível também</span>
+                                </div>
+                                <span class="ct-channel-arrow">→</span>
+                            </a>
+
+                            <a href="https://www.instagram.com/respawn.dev/" class="ct-channel" target="_blank" rel="noopener noreferrer">
+                                <div class="ct-channel-icon ct-channel-icon--ig">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </div>
+                                <div class="ct-channel-body">
+                                    <span class="ct-channel-name">@respawn.dev</span>
+                                    <span class="ct-channel-tag" data-i18n="ct_ig_tag">Instagram</span>
+                                </div>
+                                <span class="ct-channel-arrow">→</span>
+                            </a>
+                        </div>
+
+                        <div class="ct-response-pill">
+                            <span class="badge-dot"></span>
+                            <span data-i18n="ct_response">Tempo de resposta médio: até 24h</span>
+                        </div>
+                    </div>
+
+                    <!-- FAQ -->
+                    <div class="ct-faq">
+                        <span class="section-eyebrow" data-i18n="ct_faq_eyebrow">FAQ</span>
+                        <h3 class="ct-sidebar-title" data-i18n="ct_faq_title">Perguntas frequentes.</h3>
+
+                        <div class="ct-faq-list">
+
+                            <div class="ct-faq-item">
+                                <button class="ct-faq-q" aria-expanded="false">
+                                    <span data-i18n="faq_q1">Quanto custa?</span>
+                                    <span class="ct-faq-icon">+</span>
+                                </button>
+                                <div class="ct-faq-a" hidden>
+                                    <p data-i18n="faq_a1">Depende do escopo. Após o briefing você recebe um orçamento detalhado em até 24h — sem surpresas e sem letra miúda.</p>
+                                </div>
+                            </div>
+
+                            <div class="ct-faq-item">
+                                <button class="ct-faq-q" aria-expanded="false">
+                                    <span data-i18n="faq_q2">Qual o prazo de entrega?</span>
+                                    <span class="ct-faq-icon">+</span>
+                                </button>
+                                <div class="ct-faq-a" hidden>
+                                    <p data-i18n="faq_a2">Varia com a complexidade. Landing pages simples: 3–5 dias. Sistemas e websites: combinamos no briefing. Sempre com prazo real, não inflado.</p>
+                                </div>
+                            </div>
+
+                            <div class="ct-faq-item">
+                                <button class="ct-faq-q" aria-expanded="false">
+                                    <span data-i18n="faq_q3">Como funciona o pagamento?</span>
+                                    <span class="ct-faq-icon">+</span>
+                                </button>
+                                <div class="ct-faq-a" hidden>
+                                    <p data-i18n="faq_a3">Geralmente 50% na aprovação da proposta e 50% na entrega. Para projetos menores, pode ser combinado de outra forma.</p>
+                                </div>
+                            </div>
+
+                            <div class="ct-faq-item">
+                                <button class="ct-faq-q" aria-expanded="false">
+                                    <span data-i18n="faq_q4">Tem suporte após a entrega?</span>
+                                    <span class="ct-faq-icon">+</span>
+                                </button>
+                                <div class="ct-faq-a" hidden>
+                                    <p data-i18n="faq_a4">Sim. Suporte pós-entrega incluso — porque bug não avisa hora. Problemas relacionados ao que foi entregue são resolvidos sem custo adicional.</p>
+                                </div>
+                            </div>
+
+                            <div class="ct-faq-item">
+                                <button class="ct-faq-q" aria-expanded="false">
+                                    <span data-i18n="faq_q5">Você trabalha com quais tecnologias?</span>
+                                    <span class="ct-faq-icon">+</span>
+                                </button>
+                                <div class="ct-faq-a" hidden>
+                                    <p data-i18n="faq_a5">Python, Flask, SQLite, HTML5, CSS3 e JavaScript puro. Para projetos específicos, posso avaliar outras stacks.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo-block">
+                <a href="./index.html" class="nav-logo">
+                    <div class="logo-icon">&lt;/&gt;</div>
+                    <div class="logo-wordmark">
+                        <span class="logo-respawn">RESPAWN</span><span class="logo-dev">&lt;DEV&gt;</span>
+                    </div>
+                </a>
+                <p class="footer-tagline" data-i18n="footer_tagline">Morreu no bug? Respawna e tenta de novo.</p>
+            </div>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="./index.html" data-i18n="nav_home">Home</a>
+                <a href="./services.html" data-i18n="nav_services">Serviços</a>
+                <a href="./portfolio.html" data-i18n="nav_portfolio">Portfólio</a>
+                <a href="./contact.html" data-i18n="nav_contact">Contato</a>
+            </nav>
+            <div class="footer-right">
+                <a href="https://www.instagram.com/respawn.dev/" class="footer-social" target="_blank" rel="noopener noreferrer">@respawn.dev</a>
+                <p class="footer-copy">© 2026 DEV RESPAWN. <span data-i18n="footer_rights">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./static/js/app.js"></script>
+    <script src="./static/js/contact.js"></script>
+</body>
+</html>
