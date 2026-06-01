@@ -42,8 +42,8 @@ const i18n = {
 
     // Diferenciais
     diff_eyebrow: 'APPROACH',
-    diff_title:   'Solo. Mas sem cortar atalhos.',
-    diff_sub:     'Você não tá contratando uma agência com 10 pessoas e 1 responsável. Fala direto com quem vai construir.',
+    diff_title:   'MENOS CAMADAS. MAIS RESULTADO.',
+    diff_sub:     'Construindo o futuro do seu negócio!',
     diff_1: 'Código limpo e documentado',
     diff_2: 'Comunicação direta, sem enrolação',
     diff_3: 'Entrega rápida e estruturada',
@@ -101,8 +101,8 @@ const i18n = {
 
     // Differentials
     diff_eyebrow: 'APPROACH',
-    diff_title:   'Solo. But no shortcuts.',
-    diff_sub:     "You're not hiring an agency with 10 people and 1 responsible. You talk directly to who will build it.",
+    diff_title:   'Fewer layers. Better results.',
+    diff_sub:     "Building the future of your business!",
     diff_1: 'Clean and documented code',
     diff_2: 'Direct communication, no fluff',
     diff_3: 'Fast and structured delivery',
